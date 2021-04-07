@@ -1,1 +1,1 @@
-web: gunicorn app_core:app –preload
+web: gunicorn --pythonpath mysite mysite.wsgi
