@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath mysite stockaskbot.wsgi
+web: python app.py
